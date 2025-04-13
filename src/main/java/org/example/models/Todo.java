@@ -1,4 +1,4 @@
-package org.example;
+package org.example.models;
 
 public class Todo {
     private long id;
@@ -9,6 +9,10 @@ public class Todo {
         this.id = id;
         this.text = text;
         this.completed = completed;
+    }
+
+    public Todo() {
+
     }
 
     public long getId() {
